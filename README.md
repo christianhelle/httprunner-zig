@@ -1,4 +1,4 @@
-# HTTP File Runner
+# HTTP File Runner (Legacy Zig version)
 
 [![Build Linux](https://github.com/christianhelle/httprunner/actions/workflows/build-linux.yml/badge.svg)](https://github.com/christianhelle/httprunner/actions/workflows/build-linux.yml)
 [![Build macOS](https://github.com/christianhelle/httprunner/actions/workflows/build-macos.yml/badge.svg)](https://github.com/christianhelle/httprunner/actions/workflows/build-macos.yml)
