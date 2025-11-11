@@ -476,7 +476,7 @@ The environment file is a JSON file that contains one or more named environments
   },
   "prod": {
     "HostAddress": "https://contoso.com",
-    "ApiKey": "prod-api-key-789", 
+    "ApiKey": "prod-api-key-789",
     "Environment": "production"
   }
 }
@@ -501,7 +501,7 @@ Use the `--env` flag to specify which environment to use:
 # Use development environment
 httprunner myfile.http --env dev
 
-# Use production environment  
+# Use production environment
 httprunner myfile.http --env prod
 ```
 
@@ -529,7 +529,7 @@ Where:
 
 - `request_name`: The name of a previous request (defined with `# @name`)
 - `request|response`: Whether to extract from the request or response
-- `body|headers`: Whether to extract from body or headers  
+- `body|headers`: Whether to extract from body or headers
 - `*|JSONPath|XPath|header_name`: The extraction path
 
 ### Authentication Flow Example
@@ -1025,13 +1025,6 @@ The project includes installer scripts for easy deployment:
   - <https://christianhelle.com/httprunner/install>
   - <https://christianhelle.com/httprunner/install.ps1>
 
-### Testing the Installer Scripts
-
-```bash
-# Test the installer scripts locally
-./test-installer.sh
-```
-
 ## Development
 
 ### Dev Containers
@@ -1039,18 +1032,21 @@ The project includes installer scripts for easy deployment:
 For the easiest development experience, this repository includes a dev container configuration that provides a pre-configured environment with Zig and VS Code extensions.
 
 **GitHub Codespaces:**
+
 1. Open the repository on GitHub
 2. Click the green "Code" button → "Codespaces" → "Create codespace on main"
 3. Wait for the environment to set up automatically
 4. Start coding! 🚀
 
 **Local Development with VS Code:**
+
 1. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 2. Clone this repository: `git clone https://github.com/christianhelle/httprunner.git`
 3. Open in VS Code: `code httprunner`
 4. When prompted, click "Reopen in Container" or use Command Palette: "Dev Containers: Reopen in Container"
 
 **What's included:**
+
 - Zig 0.15.1 pre-installed
 - PowerShell Core for build scripts
 - VS Code Zig extension (`ziglang.vscode-zig`)
