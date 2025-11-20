@@ -1,5 +1,13 @@
 # HTTP File Runner (Legacy Zig version)
 
+> **⚠️ DEPRECATED - No Longer Maintained**
+> 
+> This repository is no longer actively maintained. The project has been rewritten in Rust and is now available at [christianhelle/httprunner](https://github.com/christianhelle/httprunner).
+> 
+> **Reason for migration:** The HTTP client APIs in the Zig Standard Library have limitations that made it difficult to implement all desired features. The Rust version provides better HTTP client capabilities and will receive ongoing updates and improvements.
+> 
+> Please use the [Rust version](https://github.com/christianhelle/httprunner) for new projects and consider migrating existing workflows.
+
 [![Build Linux](https://github.com/christianhelle/httprunner/actions/workflows/build-linux.yml/badge.svg)](https://github.com/christianhelle/httprunner/actions/workflows/build-linux.yml)
 [![Build macOS](https://github.com/christianhelle/httprunner/actions/workflows/build-macos.yml/badge.svg)](https://github.com/christianhelle/httprunner/actions/workflows/build-macos.yml)
 [![Build Windows](https://github.com/christianhelle/httprunner/actions/workflows/build-windows.yml/badge.svg)](https://github.com/christianhelle/httprunner/actions/workflows/build-windows.yml)
